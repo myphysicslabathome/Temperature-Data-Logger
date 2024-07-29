@@ -6,10 +6,12 @@ This project aims to measure the temperature over time and record the data using
 1. ExpEYES Module
 2. Temperature Sensor (PT1000)
 3. Connecting wires (with alligator clips, optional)
+<img src="./ExpEYES.png" alt="ExpEYES" width="400"  title="ExpEYES Module">
+<img src="./PT1000.jpg" alt="PT1000" width="400" title="Temperature Sensor">
 
 ## Procedure:
 **Connections**:
-- Connect PT1000 between SEN and Ground
+- Connect PT1000 between SEN and Ground of the ExpEYES Module.
   
 **Data Acquisition**:
 - Connect ExpEYES to PC via USB.
@@ -20,14 +22,15 @@ This project aims to measure the temperature over time and record the data using
   ``` python code
   time.sleep(1)
   ```
-
+- Close the Python Shell to stop data logging.
+  
 > ### NOTES :
 > - Make sure to delete the existing "Temperature.dat" file before running the Temperature.py file multiple times.
 
 ## Obtained Temperature :
 Please make sure to securely grip the PT1000 probe and take the temperature for a few seconds.
 
-<img src="./Hand_Temperature.png" alt="Logged Data" width="500" title="Logged Temperature Data">
+<img src="./Hand_Temperature.png" alt="Logged Data" width="400" title="Logged Temperature Data">
 
 ## Special thanks to:
 
