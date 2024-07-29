@@ -1,6 +1,7 @@
-# Program for the measurement of temperture
-# as a function of time using PT1000 and ExpEYES
-
+'''
+Program for the measurement of temperature as a function of time using PT1000 and ExpEYES
+Date: 07 ‎May ‎2024
+'''
 # Establish Connection
 import eyes17.eyes
 p = eyes17.eyes.open()
